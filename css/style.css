@@ -35,8 +35,7 @@ div img{
     border-radius: 15px;
   }
 
-div{
-  display: inline-block;  
+div{  
   margin: 5px;
   padding: 2px;  
 }
@@ -46,13 +45,14 @@ div{
 /* Media Query 1: Tablet View */
 @media only screen and 
  (min-width: 772px) {
-  div {        
+  div {       
+    display: inline-block; 
     width: 45vw;
     margin: 0 auto;
   }
 
   div img {    
-    height: 30vh;    
+    max-height: 30vh;    
   }
 
 }
